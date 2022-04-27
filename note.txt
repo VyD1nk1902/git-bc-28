@@ -28,3 +28,6 @@
     - Nếu muốn kết hợp code vào master thì p đứng ở nhánh master
     -lệnh : git merge {branch-name}
     ví dụ : git merge vy-dinh
+12/ Lệnh update src code mới nhất vào code local, để code tiếp cho chuẩn :
+    -lệnh : git pull | git pull {remote name} {branch name}
+    ví dụ : git pull origin master
