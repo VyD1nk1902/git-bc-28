@@ -1,18 +1,30 @@
-1/ Khởi tạo git:
+1/ Khởi tạo git :
     -lệnh : git init
-2/ kiểm tra version 
+2/ kiểm tra version :
     -lệnh : git --version
-3/ đưa code của mình lên server github/gitlab
-    lệnh : -) git add (add file)
+3/ đưa code của mình lên server github/gitlab :
+    -lệnh : -) git add . | "." add all (add file)
            -) git commit -m "your comment" (tạo file up lên git)
            -) git push --set-upstream origin master | git push (up file lên github)
-4/ lệnh kiểm tra trạng thái của git
-    lệnh : git status
-5/ lệnh giúp git biết đc sẽ đưa code lên chổ nào
-    lệnh : git remote add origin {url_github}
+4/ Lệnh kiểm tra trạng thái của git :
+    -lệnh : git status
+5/ Lệnh giúp git biết đc sẽ đưa code lên chổ nào :
+    -lệnh : git remote add origin {url_github}
     ví dụ: git remote add origin https://github.com/VyD1nk1902/git-bc-28
-6/ kiểm tra xem add remote thành công chưa
-    lệnh : git 
-7/ lấy code từ github xuống
-    lệnh : git clone url_github
+6/ Kiểm tra xem add remote thành công chưa
+    -lệnh : git 
+7/ Lấy code từ github xuống :
+    -lệnh : git clone url_github
     ví dụ: git clone https://github.com/VyD1nk1902/git-bc-28
+8/ Kiểm tra xem có bao nhiêu nhánh trên src code :
+    -lệnh : git branch
+9/ Tạo nhánh mới :
+    -lệnh : git branch {name}
+    ví dụ : git branch vy-dinh
+10/ Chuyển nhánh để code tiếp :
+    -lệnh : git checkout {branch name}
+    ví dụ : git checkout vy-dinh
+11/ Kết hợp code của 2 nhánh :
+    - Nếu muốn kết hợp code vào master thì p đứng ở nhánh master
+    -lệnh : git merge {branch-name}
+    ví dụ : git merge vy-dinh
